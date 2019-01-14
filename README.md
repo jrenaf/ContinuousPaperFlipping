@@ -5,9 +5,13 @@ An optimization with two functions added
 
 ```roscore```
 
-```rosrun rosserial_python serial_node.py /dev/ttyACM0``` (pin5,6)
+```rosrun rosserial_python serial_node.py /dev/ttyACM0```
 
-```rostopic pub soft std_msgs/Empty --once```
+```rostopic pub soft std_msgs/Int16 xxxx --once```
+
+xxxx from 0000 to 4949 
+
+first two numbers(from 0 to 49) decide pressure in one of fingers while the next two(from 0 to 49) decide pressure in the other.
 
 2.setup camera
 
