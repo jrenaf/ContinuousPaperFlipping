@@ -9,7 +9,7 @@ An optimization with two functions added
 
 ```rostopic pub soft std_msgs/Int16 xxxx --once```
 
-#### xxxx from 0000 to 4949 
+#### **xxxx from 0000 to 4949** 
 
 #### first two numbers(from 0 to 49) decide pressure in one of fingers while the next two(from 0 to 49) decide pressure in the other.
 
@@ -47,4 +47,4 @@ An optimization with two functions added
 
 #### utilize function 
 ```move_waypoint()``` 
-#### to manually move robot arm with three parameters repectively represents locomotion on x y z axises
+#### to manually move robot arm with three parameters repectively represents the locomotion on x y z axises
