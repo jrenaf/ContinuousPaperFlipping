@@ -35,13 +35,13 @@ An optimization with two functions added
 ```roslaunch ur10_moveit_config moveit_rviz.launch config:=true ``` 
 ####  or 
 ```roslaunch ur10_moveit_config demo.launch ``` 
-#### for visulization on MoveIt!
+#### for visualization on MoveIt!
 
 ```rosrun a4_paper_turning soft_gripper_frame```
 
 ```rosrun a4_paper_turning page_turning_2D_aug_1_Jimmy_version2.py```
 
-#### 1_Jmmy_versionX at the midline; 2_Jimmy at the diagonal line
+#### 1_Jimmy_versionX at the midline; 2_Jimmy at the diagonal line
 
 ```rostopic pub move a4_paper_turning/manual_move --once '[0.1]' '[0.1]' '[0.1]'```
 
