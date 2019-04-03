@@ -47,4 +47,4 @@ An optimization with two functions added
 
 #### utilize function 
 ```move_waypoint()``` 
-#### to manually move robot arm with three parameters repectively represents the locomotion on x y z axises
+#### to manually move robot arm with three parameters repectively representing the locomotion on x y z-axises
