@@ -37,7 +37,7 @@ An optimization with two functions added
 ```roslaunch ur10_moveit_config demo.launch ``` 
 #### for visualization on MoveIt!
 
-```rosrun a4_paper_turning soft_gripper_frame```
+```rosrun a4_paper_turning soft_gripper_frame.py```
 
 ```rosrun a4_paper_turning page_turning_2D_aug_1_Jimmy_version2.py```
 
